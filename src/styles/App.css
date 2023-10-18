@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;300;400;500;700;900&display=swap'); */
+
+/* *{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+} */
+
+.logo-text {
+    background-image: linear-gradient(60deg, #44acf1, #6dd5fa);
+    background-clip: text;
+    color: transparent;
+}
+
+.form-color {
+    background-image: linear-gradient(120deg, #141E30, #243B55) !important;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.sidebarform-color {
+    background-image: linear-gradient(260deg, #020024, #090979) !important;
+}
+
+.btn-color {
+    color: linear-gradient(60deg, #44acf1, #6dd5fa);
+}
+
+
+.logo-title {
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-image: linear-gradient(120deg, #44acf1, #6dd5fa);
+    background-clip: text;
+    color: transparent;
+}
+
+.font {
+    letter-spacing: 1px;
+    font-size: 10px;
+    text-align: left;
+    color: #fff;
+}
+
+.form-background {
+    background-image: linear-gradient(120deg, #16222A, #243B55);
+}
+
+.subMenu {
+    font-size: 11px;
+    font-weight: normal;
+    font-family: Century Gothic;
+}
+
+.moduleTitle {
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.login-text {
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+/* .logintoelixir{
+    color: #201365;
+    font-size: 20px;
+    font-weight: bold;
+    
+} */
+
+.font-login {
+
+    font-size: 17px;
+    color: #2a197e;
+}
+
+.btn-login {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+.swal2-popup {
+    font-size: 11px !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.opacityForm {
+    opacity: 0.75;
+}
+
+.swal2-container {
+    z-index: 10000;
+}
+
+.uppercase {
+    text-transform: uppercase !important;
+}
+
+.filteredData {
+    font-size: 13px;
+    border: 3px;
+    border-color: #16222A;
+    background: #F1F3F4;
+    padding-left: 5px;
+    z-index: 1;
+
+
+    position: absolute;
+    max-height: 150px;
+    width:100%;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.inputUpperCase{
+    text-transform: uppercase !important;
+}
+
+.inputLowerCase{
+    text-transform: lowercase !important;
+    /* justify-content: center; */
+    /* align-items: ; */
+    width: 43px;
+    /* height: 30px; */
+    text-align: center;
+}
+
+.inputCapital{
+    text-transform: capitalize !important;
+    /* justify-content: center; */
+    /* align-items: ; */
+    width: 43px;
+    /* height: 30px; */
+    /* text-align: center; */
+}
+
+.inputCapitalType{
+    text-transform: capitalize !important;
+    /* justify-content: center; */
+    /* align-items: ; */
+    width: 90px;
+    /* height: 30px; */
+    /* text-align: center; */
+}
+
+.inputCapitalModuleName {
+    text-transform: uppercase !important;
+    /* color: red; */
+}
+
+/* "linear-gradient(rgba(0, 0, 0, 0.800),rgba(0, 0, 0, 0.5))" */
+
+.badge-container {
+    position: relative;
+  }
+  
+  .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+  }
+  
+  .my-swal {
+    z-index: 99999999 !important;
+  }
+
+  .my-swal-title {
+    font-size: 16px;
+  }
+
+  .boxShadow {
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
+     /* box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset; */
+     /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
+     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  }
+/* 
+  .font{
+    font-size: medium;
+    font-weight: bold;
+    color: black;
+  } */
+
+  .login-button-gradient {
+    background: linear-gradient(90deg, #66b9f8, #3d93ee, rgba(30,105,217,1)) !important
+  }
+
+  .login-bg-gradient {
+    background: conic-gradient(from 255deg at 90% 41%, #4786ba, #353f58d6, rgba(21, 71, 93, 0.78))
+  }

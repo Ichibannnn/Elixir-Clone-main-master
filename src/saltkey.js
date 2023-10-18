@@ -1,0 +1,1 @@
+export const saltKey = "9oiujyhjukikujyhyui9o"
